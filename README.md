@@ -42,15 +42,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## File Structure
 nextjs-resume/
+
 ├─ src/
 
-│  └─ app/
+│       └─ app/
 
-│     ├─ page.js        ← my resume lives here
+│               ├─ page.js        ← my resume lives here
 
-│     ├─ layout.js
+│               ├─ layout.js
 
-│     └─ globals.css    ← keep Tailwind directives; added any global overrides here
+│               └─ globals.css    ← keep Tailwind directives; added any global overrides here
 
 ├─ public/
 
