@@ -24,7 +24,10 @@ export default function Home() {
       <section className="border-t pt-6 mt-6">
         <h2 className="text-xl font-semibold mb-2">Education</h2>
         <p>
-          University of South Florida — BS in Information Assurance & Cybersecurity Management
+          <li>University of South Florida — BS in Information Assurance & Cybersecurity Management</li>
+        </p>
+        <p>
+          <li>Lincoln Sudbury Regional High School — High School Diploma</li>
         </p>
       </section>
 
@@ -32,8 +35,21 @@ export default function Home() {
       <section className="border-t pt-6 mt-6">
         <h2 className="text-xl font-semibold mb-2">Experience</h2>
         <p>Rider Operator — Busch Gardens Tampa</p>
+        <ul className="list-disc ml-5">
+          <li>Operational Procedures</li>
+          <li>Systems Monitoring</li>
+          <li>Incident Response</li>
+        </ul>
         <p>Server — The Common in Lincln</p>
+        <ul className="list-disc ml-5">
+          <li>Restuarant Operations</li>
+          <li>Customer Service</li>
+        </ul>
         <p>Merchandise Associate — TJX companies</p>
+        <ul className="list-disc ml-5">
+          <li>Training</li>
+          <li>Sales</li>
+        </ul>
 
       </section>
 
@@ -44,6 +60,17 @@ export default function Home() {
           <li>JavaScript, HTML, CSS</li>
           <li>SQL</li>
           <li>Wireshark, Nmap, Splunk</li>
+        </ul>
+      </section>
+
+     {/* CERTIFICATIONS */}
+      <section className="border-t pt-6 mt-6">
+        <h2 className="text-xl font-semibold mb-2">Certifications</h2>
+        <ul className="list-disc ml-5">
+          <li>JavaScript Essentials - Cisco Networking Academy</li>
+          <li>Intro to Cybersecurity - Cisco Networking Academy</li>
+          <li>Cyber Resiliency - USF Muma College of Business</li>
+          <li>Data Visualization: Storytelling - LinkedIn Learning</li>
         </ul>
       </section>
 
