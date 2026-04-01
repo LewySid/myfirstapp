@@ -6,8 +6,8 @@ export default function Home() {
 
       {/* HEADER */}
       <header className="mb-6">
-        <h1 className="text-3xl font-bold text-gray-900">Lewis Sideras</h1>
-        <p className="text-sm text-gray-500">
+        <h1 className="text-3xl font-bold">Lewis Sideras</h1>
+        <p className="text-sm">
           lewis.sideras@gmail.com | Tampa, FL | LinkedIn: www.linkedin.com/in/lewis-sideras | Github: www.github.com/LewySid | (617) 850 - 5217 
         </p>
       </header>
