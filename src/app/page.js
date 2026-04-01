@@ -23,12 +23,10 @@ export default function Home() {
       {/* EDUCATION */}
       <section className="border-t pt-6 mt-6">
         <h2 className="text-xl font-semibold mb-2">Education</h2>
-        <p>
+        <ul className="list-disc ml-5">
           <li>University of South Florida — BS in Information Assurance & Cybersecurity Management</li>
-        </p>
-        <p>
           <li>Lincoln Sudbury Regional High School — High School Diploma</li>
-        </p>
+        </ul>
       </section>
 
       {/* EXPERIENCE */}
@@ -50,7 +48,6 @@ export default function Home() {
           <li>Training</li>
           <li>Sales</li>
         </ul>
-
       </section>
 
       {/* SKILLS */}
