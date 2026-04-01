@@ -2,64 +2,51 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main className="max-w-3xl mx-auto px-6 py-10">
+
+      {/* HEADER */}
+      <header className="mb-6">
+        <h1 className="text-3xl font-bold text-gray-900">Lewis Sideras</h1>
+        <p className="text-sm text-gray-500">
+          lewis.sideras@gmail.com | Tampa, FL | LinkedIn: www.linkedin.com/in/lewis-sideras | Github: www.github.com/LewySid | (617) 850 - 5217 
+        </p>
+      </header>
+
+      {/* SUMMARY */}
+      <section className="mb-6">
+        <h2 className="text-xl font-semibold mb-2">Summary</h2>
+        <p>
+        Motivated undergraduate student pursuing a B.S in Information Assurance and Cybersecurity Management. I have experience with Business and Data Analytics using Tableau through academic projects, and am currently learning JavaScript, HTML/ CSS, and SQL throughout my current semester at school. I am also learning about network security, risk management, cybersecurity policies, threat analysis, and information assurance practices. My expected graduation date is Spring 2027.
+        </p>
+      </section>
+
+      {/* EDUCATION */}
+      <section className="border-t pt-6 mt-6">
+        <h2 className="text-xl font-semibold mb-2">Education</h2>
+        <p>
+          University of South Florida — BS in Information Assurance & Cybersecurity Management
+        </p>
+      </section>
+
+      {/* EXPERIENCE */}
+      <section className="border-t pt-6 mt-6">
+        <h2 className="text-xl font-semibold mb-2">Experience</h2>
+        <p>Rider Operator — Busch Gardens Tampa</p>
+        <p>Server — The Common in Lincln</p>
+        <p>Merchandise Associate — TJX companies</p>
+
+      </section>
+
+      {/* SKILLS */}
+      <section className="border-t pt-6 mt-6">
+        <h2 className="text-xl font-semibold mb-2">Skills</h2>
+        <ul className="list-disc ml-5">
+          <li>JavaScript, HTML, CSS</li>
+          <li>SQL</li>
+          <li>Wireshark, Nmap, Splunk</li>
+        </ul>
+      </section>
+
+    </main>
   );
 }
