@@ -1,3 +1,8 @@
+## Next.js Resume Webpage
+
+This project is a single-page resume website built using **Next.js (App router)** and **Tailwind CSS**. 
+The goal of this project is to recreate my resume in a web format while learning the fundamentals of Next.js structure, JSX, and utility-first styling. 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
